@@ -19,17 +19,17 @@ namespace TP1_GRUPO_8
 
         private void btnEjercicio1_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btnEjercicio2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btnEjercicio3_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
