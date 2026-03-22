@@ -27,5 +27,10 @@ namespace TP1_GRUPO_8
         {
             fPrincipal.Show();
         }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            lbNombres.Items.Add(txtNombre.Text);
+        }
     }
 }
