@@ -51,5 +51,28 @@ namespace TP1_GRUPO_8
             txtNombre.Clear();
 
         }
+
+        private void btnPasarUno_Click(object sender, EventArgs e) {
+            if (lbNombres.SelectedItem != null) {
+                lbNombres2.Items.Add(lbNombres.SelectedItem);
+                lbNombres.Items.Remove(lbNombres.SelectedItem);
+            } else {
+                MessageBox.Show("Por favor, seleccione un nombre de la lista.", "Selección inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void btnPasarTodos_Click(object sender, EventArgs e)
+        {
+            if (lbNombres.Items.Count > 0)
+            {
+                lbNombres2.Items.AddRange(lbNombres.Items);
+                lbNombres.Items.Clear();
+            }
+            else
+            {
+                MessageBox.Show("La lista ya esta vacia, No se encontraron nombres para mover", "Lista Vacia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
