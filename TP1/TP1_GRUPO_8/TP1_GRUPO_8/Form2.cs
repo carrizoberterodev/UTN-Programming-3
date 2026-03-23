@@ -30,7 +30,26 @@ namespace TP1_GRUPO_8
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            lbNombres.Items.Add(txtNombre.Text);
+            string nombre = txtNombre.Text.Trim();
+
+            if (string.IsNullOrEmpty(nombre))
+            {
+                MessageBox.Show("El nombre no puede estar vacío. Por favor ingrese un nombre válido", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            foreach(string item in lbNombres.Items) {
+            
+                if(item.ToUpper() == nombre.ToUpper()) {
+                    MessageBox.Show("El nombre ya existe en la lista. Por favor ingrese un nombre diferente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+            }
+
+
+            lbNombres.Items.Add(nombre);
+            txtNombre.Clear();
+
         }
     }
 }
