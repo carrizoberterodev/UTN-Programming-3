@@ -40,7 +40,7 @@ namespace TP1_GRUPO_8
                 }
                 else
                 {
-                    string nombreCompleto = tbxNombreEj2.Text + " " + tbxApellidoEj2.Text;
+                    string nombreCompleto = tbxNombreEj2.Text.Trim() + " " + tbxApellidoEj2.Text.Trim();
 
                     for(int i = 0; i < lbElementosEj2.Items.Count; i++)
                     {
@@ -60,7 +60,7 @@ namespace TP1_GRUPO_8
                     tbxNombreEj2.BackColor = SystemColors.Window;
                     tbxApellidoEj2.BackColor = SystemColors.Window;
 
-                    lbElementosEj2.Items.Add(tbxNombreEj2.Text + " " + tbxApellidoEj2.Text);
+                    lbElementosEj2.Items.Add(nombreCompleto);
 
                     tbxApellidoEj2.Clear();
                     tbxNombreEj2.Clear();
