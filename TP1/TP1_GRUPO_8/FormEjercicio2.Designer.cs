@@ -35,8 +35,8 @@
             this.lblApellidoEj2 = new System.Windows.Forms.Label();
             this.lblNombreEj2 = new System.Windows.Forms.Label();
             this.gbElementos = new System.Windows.Forms.GroupBox();
-            this.lbElementosEj2 = new System.Windows.Forms.ListBox();
             this.btnBorrar = new System.Windows.Forms.Button();
+            this.lbElementosEj2 = new System.Windows.Forms.ListBox();
             this.gbxIngresodeDatos.SuspendLayout();
             this.gbElementos.SuspendLayout();
             this.SuspendLayout();
@@ -49,9 +49,9 @@
             this.gbxIngresodeDatos.Controls.Add(this.lblApellidoEj2);
             this.gbxIngresodeDatos.Controls.Add(this.lblNombreEj2);
             this.gbxIngresodeDatos.Location = new System.Drawing.Point(16, 15);
-            this.gbxIngresodeDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxIngresodeDatos.Margin = new System.Windows.Forms.Padding(4);
             this.gbxIngresodeDatos.Name = "gbxIngresodeDatos";
-            this.gbxIngresodeDatos.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbxIngresodeDatos.Padding = new System.Windows.Forms.Padding(4);
             this.gbxIngresodeDatos.Size = new System.Drawing.Size(517, 524);
             this.gbxIngresodeDatos.TabIndex = 0;
             this.gbxIngresodeDatos.TabStop = false;
@@ -60,7 +60,7 @@
             // btnAgregarEj2
             // 
             this.btnAgregarEj2.Location = new System.Drawing.Point(188, 327);
-            this.btnAgregarEj2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregarEj2.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarEj2.Name = "btnAgregarEj2";
             this.btnAgregarEj2.Size = new System.Drawing.Size(137, 48);
             this.btnAgregarEj2.TabIndex = 4;
@@ -71,7 +71,7 @@
             // tbxApellidoEj2
             // 
             this.tbxApellidoEj2.Location = new System.Drawing.Point(140, 260);
-            this.tbxApellidoEj2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxApellidoEj2.Margin = new System.Windows.Forms.Padding(4);
             this.tbxApellidoEj2.Name = "tbxApellidoEj2";
             this.tbxApellidoEj2.Size = new System.Drawing.Size(235, 22);
             this.tbxApellidoEj2.TabIndex = 3;
@@ -79,7 +79,7 @@
             // tbxNombreEj2
             // 
             this.tbxNombreEj2.Location = new System.Drawing.Point(140, 226);
-            this.tbxNombreEj2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxNombreEj2.Margin = new System.Windows.Forms.Padding(4);
             this.tbxNombreEj2.Name = "tbxNombreEj2";
             this.tbxNombreEj2.Size = new System.Drawing.Size(235, 22);
             this.tbxNombreEj2.TabIndex = 2;
@@ -111,24 +111,13 @@
             this.gbElementos.Controls.Add(this.btnBorrar);
             this.gbElementos.Controls.Add(this.lbElementosEj2);
             this.gbElementos.Location = new System.Drawing.Point(639, 15);
-            this.gbElementos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbElementos.Margin = new System.Windows.Forms.Padding(4);
             this.gbElementos.Name = "gbElementos";
-            this.gbElementos.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbElementos.Padding = new System.Windows.Forms.Padding(4);
             this.gbElementos.Size = new System.Drawing.Size(412, 524);
             this.gbElementos.TabIndex = 1;
             this.gbElementos.TabStop = false;
             this.gbElementos.Text = "Elementos";
-            // 
-            // lbElementosEj2
-            // 
-            this.lbElementosEj2.FormattingEnabled = true;
-            this.lbElementosEj2.ItemHeight = 16;
-            this.lbElementosEj2.Location = new System.Drawing.Point(40, 38);
-            this.lbElementosEj2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lbElementosEj2.Name = "lbElementosEj2";
-            this.lbElementosEj2.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.lbElementosEj2.Size = new System.Drawing.Size(335, 404);
-            this.lbElementosEj2.TabIndex = 0;
             // 
             // btnBorrar
             // 
@@ -141,6 +130,18 @@
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lbElementosEj2
+            // 
+            this.lbElementosEj2.FormattingEnabled = true;
+            this.lbElementosEj2.ItemHeight = 16;
+            this.lbElementosEj2.Location = new System.Drawing.Point(40, 38);
+            this.lbElementosEj2.Margin = new System.Windows.Forms.Padding(4);
+            this.lbElementosEj2.Name = "lbElementosEj2";
+            this.lbElementosEj2.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.lbElementosEj2.Size = new System.Drawing.Size(335, 404);
+            this.lbElementosEj2.Sorted = true;
+            this.lbElementosEj2.TabIndex = 0;
+            // 
             // FormEjercicio2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -148,7 +149,7 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.gbElementos);
             this.Controls.Add(this.gbxIngresodeDatos);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormEjercicio2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nombre y Apellido";

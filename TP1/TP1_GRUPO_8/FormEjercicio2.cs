@@ -66,7 +66,7 @@ namespace TP1_GRUPO_8
                     tbxNombreEj2.Clear();
 
 
-                    MessageBox.Show("Nombres Agregados", "Exito");
+                    MessageBox.Show("Nombre Agregado", "Exito");
                 }
             }
         }
