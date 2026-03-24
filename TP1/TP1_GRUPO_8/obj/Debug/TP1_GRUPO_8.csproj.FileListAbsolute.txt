@@ -10,3 +10,15 @@ D:\OneDrive\Escritorio\tp1 progra 3\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.Gen
 D:\OneDrive\Escritorio\tp1 progra 3\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.CoreCompileInputs.cache
 D:\OneDrive\Escritorio\tp1 progra 3\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.exe
 D:\OneDrive\Escritorio\tp1 progra 3\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.pdb
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\bin\Debug\TP1_GRUPO_8.exe.config
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\bin\Debug\TP1_GRUPO_8.exe
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\bin\Debug\TP1_GRUPO_8.pdb
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.FormularioPrincipal.resources
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.Form2Ej1.resources
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.FormEjercicio2.resources
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.Properties.Resources.resources
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.GenerateResource.cache
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.exe
+C:\Users\sebas\Desktop\UTN-Programming-3\TP1\TP1_GRUPO_8\obj\Debug\TP1_GRUPO_8.pdb

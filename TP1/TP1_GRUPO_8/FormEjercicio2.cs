@@ -70,5 +70,16 @@ namespace TP1_GRUPO_8
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (lbElementosEj2.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un elemento para borrar.", "Advertencia");
+                return;
+            }
+
+            lbElementosEj2.Items.Remove(lbElementosEj2.SelectedItem);
+        }
     }
 }
