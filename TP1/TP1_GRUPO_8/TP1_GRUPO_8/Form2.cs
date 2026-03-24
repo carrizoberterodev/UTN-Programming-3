@@ -74,5 +74,7 @@ namespace TP1_GRUPO_8
                 MessageBox.Show("La lista ya esta vacia, No se encontraron nombres para mover", "Lista Vacia", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        
     }
 }
