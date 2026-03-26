@@ -80,10 +80,10 @@
             // 
             this.clbOficio.CheckOnClick = true;
             this.clbOficio.FormattingEnabled = true;
-            this.clbOficio.Location = new System.Drawing.Point(294, 215);
-            this.clbOficio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clbOficio.Location = new System.Drawing.Point(253, 215);
+            this.clbOficio.Margin = new System.Windows.Forms.Padding(4);
             this.clbOficio.Name = "clbOficio";
-            this.clbOficio.Size = new System.Drawing.Size(159, 106);
+            this.clbOficio.Size = new System.Drawing.Size(271, 106);
             this.clbOficio.TabIndex = 4;
             // 
             // gbEstadoCivil
