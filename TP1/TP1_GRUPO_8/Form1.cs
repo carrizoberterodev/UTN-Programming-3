@@ -36,7 +36,10 @@ namespace TP1_GRUPO_8
 
         private void btnEjercicio3_Click(object sender, EventArgs e)
         {
-            
+            FormEjercicio3 fEjercicio3 = new FormEjercicio3(this);
+            fEjercicio3.Show();
+
+            this.Hide();
         }
     }
 }
