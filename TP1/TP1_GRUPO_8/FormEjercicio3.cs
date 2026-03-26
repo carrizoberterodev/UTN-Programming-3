@@ -43,7 +43,13 @@ namespace TP1_GRUPO_8
             string salida;
 
             salida = "Usted selecciono los siguientes elementos: " + "\r\n";
-            salida += "Sexo: " + (rBtnFemenino.Checked ? "Masculino" : "Femenino") + "\r\n";
+            salida += "Sexo: " + (rBtnFemenino.Checked ? "Femenino" : "Masculino") + "\r\n";
+
+            salida += "Estado civil: " + (rBtnCasado.Checked ? "Casado" : "Soltero" + "\r\n");
+
+
+
+            lblTexto.Text = salida;
         }
     }
 }

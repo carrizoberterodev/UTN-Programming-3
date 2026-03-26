@@ -36,6 +36,7 @@
             this.rBtnSoltero = new System.Windows.Forms.RadioButton();
             this.rBtnCasado = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblTexto = new System.Windows.Forms.Label();
             this.gbSexo.SuspendLayout();
             this.gbEstadoCivil.SuspendLayout();
             this.SuspendLayout();
@@ -45,9 +46,9 @@
             this.gbSexo.Controls.Add(this.rBtnMasculino);
             this.gbSexo.Controls.Add(this.rBtnFemenino);
             this.gbSexo.Location = new System.Drawing.Point(71, 11);
-            this.gbSexo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbSexo.Margin = new System.Windows.Forms.Padding(2);
             this.gbSexo.Name = "gbSexo";
-            this.gbSexo.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbSexo.Padding = new System.Windows.Forms.Padding(2);
             this.gbSexo.Size = new System.Drawing.Size(117, 72);
             this.gbSexo.TabIndex = 2;
             this.gbSexo.TabStop = false;
@@ -57,7 +58,7 @@
             // 
             this.rBtnMasculino.AutoSize = true;
             this.rBtnMasculino.Location = new System.Drawing.Point(14, 38);
-            this.rBtnMasculino.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rBtnMasculino.Margin = new System.Windows.Forms.Padding(2);
             this.rBtnMasculino.Name = "rBtnMasculino";
             this.rBtnMasculino.Size = new System.Drawing.Size(73, 17);
             this.rBtnMasculino.TabIndex = 1;
@@ -69,7 +70,7 @@
             this.rBtnFemenino.AutoSize = true;
             this.rBtnFemenino.Checked = true;
             this.rBtnFemenino.Location = new System.Drawing.Point(14, 17);
-            this.rBtnFemenino.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rBtnFemenino.Margin = new System.Windows.Forms.Padding(2);
             this.rBtnFemenino.Name = "rBtnFemenino";
             this.rBtnFemenino.Size = new System.Drawing.Size(71, 17);
             this.rBtnFemenino.TabIndex = 0;
@@ -91,9 +92,9 @@
             this.gbEstadoCivil.Controls.Add(this.rBtnSoltero);
             this.gbEstadoCivil.Controls.Add(this.rBtnCasado);
             this.gbEstadoCivil.Location = new System.Drawing.Point(381, 11);
-            this.gbEstadoCivil.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbEstadoCivil.Margin = new System.Windows.Forms.Padding(2);
             this.gbEstadoCivil.Name = "gbEstadoCivil";
-            this.gbEstadoCivil.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbEstadoCivil.Padding = new System.Windows.Forms.Padding(2);
             this.gbEstadoCivil.Size = new System.Drawing.Size(121, 72);
             this.gbEstadoCivil.TabIndex = 2;
             this.gbEstadoCivil.TabStop = false;
@@ -103,7 +104,7 @@
             // 
             this.rBtnSoltero.AutoSize = true;
             this.rBtnSoltero.Location = new System.Drawing.Point(14, 38);
-            this.rBtnSoltero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rBtnSoltero.Margin = new System.Windows.Forms.Padding(2);
             this.rBtnSoltero.Name = "rBtnSoltero";
             this.rBtnSoltero.Size = new System.Drawing.Size(58, 17);
             this.rBtnSoltero.TabIndex = 1;
@@ -115,7 +116,7 @@
             this.rBtnCasado.AutoSize = true;
             this.rBtnCasado.Checked = true;
             this.rBtnCasado.Location = new System.Drawing.Point(14, 17);
-            this.rBtnCasado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rBtnCasado.Margin = new System.Windows.Forms.Padding(2);
             this.rBtnCasado.Name = "rBtnCasado";
             this.rBtnCasado.Size = new System.Drawing.Size(61, 17);
             this.rBtnCasado.TabIndex = 0;
@@ -134,16 +135,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lblTexto
+            // 
+            this.lblTexto.AutoSize = true;
+            this.lblTexto.Location = new System.Drawing.Point(264, 245);
+            this.lblTexto.Name = "lblTexto";
+            this.lblTexto.Size = new System.Drawing.Size(0, 13);
+            this.lblTexto.TabIndex = 6;
+            // 
             // FormEjercicio3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.lblTexto);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.clbOficio);
             this.Controls.Add(this.gbEstadoCivil);
             this.Controls.Add(this.gbSexo);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormEjercicio3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ejercicio 3";
@@ -154,6 +164,7 @@
             this.gbEstadoCivil.ResumeLayout(false);
             this.gbEstadoCivil.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -166,5 +177,6 @@
         private System.Windows.Forms.RadioButton rBtnSoltero;
         private System.Windows.Forms.RadioButton rBtnCasado;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblTexto;
     }
 }
