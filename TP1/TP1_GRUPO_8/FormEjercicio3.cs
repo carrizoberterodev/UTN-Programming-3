@@ -37,5 +37,13 @@ namespace TP1_GRUPO_8
 
             clbOficio.Items.AddRange(items);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string salida;
+
+            salida = "Usted selecciono los siguientes elementos: " + "\r\n";
+            salida += "Sexo: " + (rBtnFemenino.Checked ? "Masculino" : "Femenino") + "\r\n";
+        }
     }
 }
