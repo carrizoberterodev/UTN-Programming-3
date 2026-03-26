@@ -40,9 +40,10 @@ namespace TP1_GRUPO_8
                 }
                 else
                 {
-                    string nombreCompleto = tbxNombreEj2.Text.Trim() + " " + tbxApellidoEj2.Text.Trim();
-
-                    for(int i = 0; i < lbElementosEj2.Items.Count; i++)
+                    string nombre = FormatearTexto(tbxNombreEj2.Text);
+                    string apellido = FormatearTexto(tbxApellidoEj2.Text);
+                    string nombreCompleto = nombre + " " + apellido;
+                    for (int i = 0; i < lbElementosEj2.Items.Count; i++)
                     {
                         if (lbElementosEj2.Items[i].ToString().ToUpper() == nombreCompleto.ToUpper())
                         {
@@ -80,6 +81,22 @@ namespace TP1_GRUPO_8
             }
 
             lbElementosEj2.Items.Remove(lbElementosEj2.SelectedItem);
+        }
+
+        private string FormatearTexto(string texto)
+        {
+            texto = texto.Trim().ToLower();
+
+            string[] palabras = texto.Split(' ');
+            for (int i = 0; i < palabras.Length; i++)
+            {
+                if (!string.IsNullOrEmpty(palabras[i]))
+                {
+                    palabras[i] = char.ToUpper(palabras[i][0]) + palabras[i].Substring(1);
+                }
+            }
+
+            return string.Join(" ", palabras);
         }
     }
 }

@@ -23,5 +23,19 @@ namespace TP1_GRUPO_8
         {
             fPrincipal.Show();
         }
+
+        private void FormEjercicio3_Load(object sender, EventArgs e)
+        {
+            string[] items =
+            {
+                "Data Entry",
+                "Operador de PC",
+                "Programador",
+                "Reparador de PC",
+                "Tester"
+            };
+
+            clbOficio.Items.AddRange(items);
+        }
     }
 }
