@@ -18,5 +18,13 @@ namespace TP2_GRUPO_8
         {
 
         }
+
+        private bool validarCampos() {
+            if ((string.IsNullOrWhiteSpace(txtProd1.Text) || string.IsNullOrWhiteSpace(txtProd2.Text))
+                || (string.IsNullOrWhiteSpace(txbCantidad1.Text) || string.IsNullOrWhiteSpace(txbCantidad2.Text))) {
+                return true;
+            }
+            return false;
+        }
     }
 }
