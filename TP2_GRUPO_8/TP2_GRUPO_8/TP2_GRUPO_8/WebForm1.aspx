@@ -9,6 +9,7 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
+            height: 69px;
         }
         .auto-style2 {
             height: 23px;
@@ -22,7 +23,7 @@
         }
     </style>
 </head>
-<body>
+<body style="height: 127px">
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
@@ -39,9 +40,16 @@
                 <td class="auto-style2"></td>
             </tr>
             <tr>
-                <td class="auto-style4">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style4">
+                    <asp:Label ID="lbProducto2" runat="server" Text="Ingrese el nombre del producto:"></asp:Label>
+                </td>
+                <td>
+                    <asp:TextBox ID="txtProd2" runat="server" style="margin-left: 1px" Width="163px"></asp:TextBox>
+                </td>
+                <td>
+                    <asp:Label ID="lblCantidad2" runat="server" Text="Cantidad:"></asp:Label>
+                    <asp:TextBox ID="txbCantidad2" runat="server"></asp:TextBox>
+                </td>
                 <td>&nbsp;</td>
             </tr>
         </table>
