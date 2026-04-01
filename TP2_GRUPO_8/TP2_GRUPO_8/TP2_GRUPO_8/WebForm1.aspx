@@ -20,6 +20,10 @@
         }
         .auto-style4 {
             width: 211px;
+            height: 37px;
+        }
+        .auto-style5 {
+            height: 37px;
         }
     </style>
 </head>
@@ -43,14 +47,24 @@
                 <td class="auto-style4">
                     <asp:Label ID="lbProducto2" runat="server" Text="Ingrese el nombre del producto:"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style5">
                     <asp:TextBox ID="txtProd2" runat="server" style="margin-left: 1px" Width="163px"></asp:TextBox>
                 </td>
-                <td>
+                <td class="auto-style5">
                     <asp:Label ID="lblCantidad2" runat="server" Text="Cantidad:"></asp:Label>
                     <asp:TextBox ID="txbCantidad2" runat="server"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
+                <td class="auto-style5"></td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <asp:Button ID="btnAgregar" runat="server" OnClick="btnAgregar_Click" style="font-weight: 700" Text="Generar Tabla " Width="140px" />
+                </td>
+                <td class="auto-style5">
+                    &nbsp;</td>
+                <td class="auto-style5">
+                    &nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
             </tr>
         </table>
     </form>
