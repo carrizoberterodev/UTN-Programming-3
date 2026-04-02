@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body style="height: 127px">
+<body style="height: 143px">
     <form id="form1" runat="server">
         <table class="auto-style1">
             <tr>
