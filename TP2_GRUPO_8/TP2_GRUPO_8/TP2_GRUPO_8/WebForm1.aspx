@@ -9,17 +9,17 @@
     <style type="text/css">
         .auto-style1 {
             width: 100%;
-            height: 69px;
+            height: 110px;
         }
         .auto-style2 {
             height: 23px;
         }
         .auto-style3 {
             height: 23px;
-            width: 211px;
+            width: 317px;
         }
         .auto-style4 {
-            width: 211px;
+            width: 317px;
             height: 37px;
         }
         .auto-style5 {
@@ -39,7 +39,7 @@
                 </td>
                 <td class="auto-style2">
                     <asp:Label ID="lblCantidad1" runat="server" Text="Cantidad:"></asp:Label>
-                    <asp:TextBox ID="txbCantidad1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtCantidad1" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style2"></td>
             </tr>
@@ -52,21 +52,28 @@
                 </td>
                 <td class="auto-style5">
                     <asp:Label ID="lblCantidad2" runat="server" Text="Cantidad:"></asp:Label>
-                    <asp:TextBox ID="txbCantidad2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtCantidad2" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style5"></td>
             </tr>
             <tr>
                 <td class="auto-style4">
-                    <asp:Button ID="btnAgregar" runat="server" OnClick="btnAgregar_Click" style="font-weight: 700" Text="Generar Tabla " Width="140px" />
+                    <asp:Label ID="lblError" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style5">
-                    &nbsp;</td>
+                    </td>
                 <td class="auto-style5">
-                    &nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
+                    </td>
+                <td class="auto-style5"></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="btnAgregar" runat="server" OnClick="btnAgregar_Click" style="font-weight: 700" Text="Generar Tabla " Width="140px" />
+                </td>
             </tr>
         </table>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>

@@ -51,13 +51,13 @@ namespace TP2_GRUPO_8
         protected global::System.Web.UI.WebControls.Label lblCantidad1;
 
         /// <summary>
-        /// Control txbCantidad1.
+        /// Control txtCantidad1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbCantidad1;
+        protected global::System.Web.UI.WebControls.TextBox txtCantidad1;
 
         /// <summary>
         /// Control lbProducto2.
@@ -87,13 +87,22 @@ namespace TP2_GRUPO_8
         protected global::System.Web.UI.WebControls.Label lblCantidad2;
 
         /// <summary>
-        /// Control txbCantidad2.
+        /// Control txtCantidad2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbCantidad2;
+        protected global::System.Web.UI.WebControls.TextBox txtCantidad2;
+
+        /// <summary>
+        /// Control lblError.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblError;
 
         /// <summary>
         /// Control btnAgregar.
