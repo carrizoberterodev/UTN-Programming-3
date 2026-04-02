@@ -30,13 +30,21 @@ namespace TP2_GRUPO_8
                 lblError.Text = "";
                 ///Validado. Aca escribir el codigo
                 int cant1 = int.Parse(txtCantidad1.Text);
-               
+
+                int cant2 = int.Parse(txtCantidad2.Text);
+                int total = cant1 + cant2;
 
                 //Aca va el codigo para generar la tabla
 
                 string tabla = "<table border = '1'>";
 
                 tabla+= "<tr><th>Producto 1</th><th>Cantidad 1</th><th>Producto 2</th><th>Cantidad 2</th></tr>";
+
+                tabla += $"<tr><td>{txtProd1.Text}</td><td>{cant1}</td><td>{txtProd2.Text}</td><td>{cant2}</td></tr>";
+
+                tabla += $"<tr><td colspan='3' style='text-align:right; font-weight:bold;'>TOTAL:</td><td>{total}</td></tr>";
+
+                tabla += "</table>";
 
                 lblTabla.Text = tabla;
             }
