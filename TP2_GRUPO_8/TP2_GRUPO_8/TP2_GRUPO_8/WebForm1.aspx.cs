@@ -29,12 +29,16 @@ namespace TP2_GRUPO_8
                 lblError.ForeColor = System.Drawing.Color.Black;
                 lblError.Text = "";
                 ///Validado. Aca escribir el codigo
+                int cant1 = int.Parse(txtCantidad1.Text);
+               
 
                 //Aca va el codigo para generar la tabla
 
                 string tabla = "<table border = '1'>";
 
                 tabla+= "<tr><th>Producto 1</th><th>Cantidad 1</th><th>Producto 2</th><th>Cantidad 2</th></tr>";
+
+                lblTabla.Text = tabla;
             }
             else
             {   

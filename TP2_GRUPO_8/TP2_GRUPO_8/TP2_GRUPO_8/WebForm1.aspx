@@ -71,6 +71,11 @@
                     <asp:Button ID="btnAgregar" runat="server" OnClick="btnAgregar_Click" style="font-weight: 700" Text="Generar Tabla " Width="140px" />
                 </td>
             </tr>
+            <tr>
+                <td class="auto-style2">
+                    <asp:Label ID="lblTabla" runat="server"></asp:Label>
+                </td>
+            </tr>
         </table>
         <p>
             &nbsp;</p>
