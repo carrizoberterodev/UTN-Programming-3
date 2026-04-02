@@ -19,10 +19,10 @@ namespace TP2_GRUPO_8
 
         protected void btnAgregar_Click(object sender, EventArgs e)
         {
-            txtProd1.BackColor = CampoValido(txtProd1) ? SystemColors.Window : System.Drawing.Color.Red;
-            txtCantidad1.BackColor = CampoValido(txtCantidad1) ? SystemColors.Window : System.Drawing.Color.Red;
-            txtProd2.BackColor = CampoValido(txtProd2) ? SystemColors.Window : System.Drawing.Color.Red;
-            txtCantidad2.BackColor = CampoValido(txtCantidad2) ? SystemColors.Window : System.Drawing.Color.Red;
+            CambiarColorTextBox(txtProd1);
+            CambiarColorTextBox(txtCantidad1);
+            CambiarColorTextBox(txtProd2);
+            CambiarColorTextBox(txtCantidad2);
             if (CampoValido(txtProd1) && CampoValido(txtCantidad1) && CampoValido(txtProd2) && CampoValido(txtCantidad2))
             {
 
@@ -50,6 +50,11 @@ namespace TP2_GRUPO_8
         private bool CampoValido(TextBox txbValidar)
         {
             return !string.IsNullOrWhiteSpace(txbValidar.Text);
+        }
+
+        private void CambiarColorTextBox(TextBox txbValidar)
+        {
+            txbValidar.BackColor = CampoValido(txbValidar) ? SystemColors.Window : System.Drawing.Color.Red;
         }
 
     }
